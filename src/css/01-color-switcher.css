@@ -1,0 +1,49 @@
+body,
+h1,
+p,
+a,
+button {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #f0f0f0;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: #007bff; /* Blue link color */
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+button[data-start],
+button[data-stop] {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 5px;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+button[data-start]:disabled,
+button[data-stop]:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+  color: #666;
+}
+
+button[data-start]:hover,
+button[data-stop]:hover {
+  background-color: #0056b3;
+}
