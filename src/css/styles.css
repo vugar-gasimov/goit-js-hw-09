@@ -1,0 +1,35 @@
+/* Reset some default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Basic styling for the body */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  padding: 20px;
+}
+
+/* Style the unordered list */
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+/* Style the list items (links) */
+li {
+  margin-bottom: 10px;
+}
+
+li a {
+  text-decoration: none;
+  font-size: 18px;
+  color: #007bff;
+  transition: color 0.3s;
+}
+
+li a:hover {
+  color: #0056b3;
+}
